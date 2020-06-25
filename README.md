@@ -20,7 +20,8 @@ npm install
 npm run serve # run the dev server
 
 ```
-
+## Project
+![Task](./Task.gif)
 
 ### Login page
 ![Login page](./login.png)
@@ -34,5 +35,3 @@ npm run serve # run the dev server
 ## Users  
 ![Users page](./Users.png)
 
-## Project
-![Task](./Task.gif)
