@@ -20,7 +20,7 @@ npm install
 npm run serve # run the dev server
 
 ```
-## Project
+## Project (GIF)
 ![Task](./Task.gif)
 
 ### Login page
