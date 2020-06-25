@@ -18,5 +18,5 @@ npm run serve # run the dev server
 ## Resources (First page you see after login in) 
 ![Resources page](./Resources.png)
 
-## Users (First page you see after login in) 
+## Users  
 ![Users page](./Users.png)
