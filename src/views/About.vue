@@ -61,8 +61,10 @@
 <style scoped>
   *{
     background-color: #f1f1f1;
+
     
   }
+  
 
   .container {
    border: 1px solid #999;

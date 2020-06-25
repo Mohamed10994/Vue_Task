@@ -2,7 +2,7 @@
     <div>
         <div v-bind:key="resource.id" v-for="resource in resources.data" v-bind:style="{backgroundColor : resource.color}">
 
-            <router-link v-bind:to="'/singleuser/'+ resource.id.da">
+            <router-link v-bind:to="'/singleuser/'+ resource.id">
             <h5 class="mb-1" >{{resource.id}}</h5>
              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
             

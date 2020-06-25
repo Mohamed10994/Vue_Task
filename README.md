@@ -1,21 +1,14 @@
-# vuex-test-project
+# vue_Task
+## How to use this project?
 
-## Project setup
+First of all you have to either clone it to you disk or download the zip and the just cd into the project and run npm install to install the mode_nodules necessary for this to work
+
 ```
+cd project_dir
 npm install
-```
+npm run serve # run the dev server
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+### Login page
+### Login page
+![Login page](./login.png)
