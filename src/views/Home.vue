@@ -28,20 +28,32 @@ export default {
  
 
 
-  methods: {
+  /*methods: {
     deleteResource(id) {
-      axios.delete('https://reqres.in/api/unknown${}')
-      this.resources = this.resources.filter(resource => resource.id != id);
+      axios.delete('https://reqres.in/api/unknown/${id}')
+     .then( res => this.resources = this.resources.filter(resource => resource.id != id))
+     .catch(err => console.log(err));
     },
     addResource(newResource){
-      this.resources = [...this.resources, newResource];
+      const {title, completed} = newResource;
+      axios.post('https://reqres.in/api/unknown/', {
+        title,
+        completed
+      })
+      .then(res =>this.resources = [...this.resources, res.data])
+      .catch(err => console.log(err));
     }
-  },
- mounted: function(){
-            axios
-            .get('https://reqres.in/api/unknown')
-            .then((res) => {this.resources = res.data;})
-        }
+  },*/
+  created() {
+    axios.get('https://reqres.in/api/unknown/')
+
+      .then(res => this.resources = res.data)
+      .catch(  (error) => {
+        const response = error.response
+        console.log(response.data.errors)
+    })
+  }
+  
 }
 </script>
 

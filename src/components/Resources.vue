@@ -2,8 +2,8 @@
     <div>
         <div v-bind:key="resource.id" v-for="resource in resources.data" v-bind:style="{backgroundColor : resource.color}">
 
-            <router-link v-bind:to="'/singleuser/'+ resource.id" ><h5 class="mb-1" >{{resource.id}}</h5></router-link>
-
+            <router-link v-bind:to="'/singleuser/'+ resource.id.da">
+            <h5 class="mb-1" >{{resource.id}}</h5>
              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
             
             <div class="d-flex w-100 justify-content-between">
@@ -19,8 +19,8 @@
 
             
             </a>
-              
-            <ResourceItem v-bind:resource="resource" v-on:del-resource="$emit('del-resource', resource.id)"/>
+            </router-link>  
+          <!--  <ResourceItem v-bind:resource="resource" v-on:del-resource="$emit('del-resource', resource.id)"/> -->
         </div>
            
     </div>

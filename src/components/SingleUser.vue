@@ -10,6 +10,7 @@
             <p class="mb-1">{{resource.color}}</p>
             
             
+            
             <small>{{resource.year}}</small>
             
             </div>
