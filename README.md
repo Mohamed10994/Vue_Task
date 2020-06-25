@@ -10,5 +10,13 @@ npm run serve # run the dev server
 
 ```
 ### Login page
-### Login page
 ![Login page](./login.png)
+
+### Sign-up page 
+![Signup page](./Register.png)
+
+## Resources (First page you see after login in) 
+![Resources page](./Resources.png)
+
+## Users (First page you see after login in) 
+![Users page](./Users.png)
