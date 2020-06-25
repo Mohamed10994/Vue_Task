@@ -18,6 +18,7 @@ export default new Vuex.Store({
     loginSuccess(state, payload) {
       state.commit("updateToken", payload);
     }
+    
   },
   getters: {
     user_token(state) {
